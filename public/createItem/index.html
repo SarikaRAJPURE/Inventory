@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+    <title>Create new Item</title>
+</head>
+
+<body>
+    <h1 id="page-title">Toy Store</h1>
+    <nav id="nav-bar">
+        <h1 id="home">Home</h1>
+        <h1 id="create-item-btn">Create Item</h1>
+        <h1 id="dispaly-item-btn">Display Items</h1>
+    </nav>
+        <div class="main">
+        <div id="container">
+            <h1>Add new Item</h1>
+            <p id="item-upload-status"></p>
+            <fieldset>      
+                      
+                <div class="input-container">
+                    <label for="name-input">Name : </label>
+                    <input type="text"  id="name-input">
+                </div>
+                <div class="input-container">
+                    <label for="price-input">Price : </label>
+                    <input type="text" id="price-input">
+                </div>
+                <div class="input-container">
+                    <label for="inventory-input">Inventory : </label>
+                    <input id="inventory-input" type='number' min="0">
+                </div>
+                <div class="input-container">
+                    <label for="deliverydate-input">Next Delivery : </label>
+                    <input type="date" id="deliverydate-input">
+                </div>
+                <div class="input-container">
+                    <label for="delamount-input">Delivery Amount : </label>
+                    <input type="text" id="delamount-input">
+                </div>
+                <button id="submit-item">Create Item</button>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>
